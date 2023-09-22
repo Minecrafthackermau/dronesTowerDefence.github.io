@@ -1,10 +1,10 @@
 # DronesTD_Website
-PROJEKT: https://github.com/users/kelp-byte/projects/3/
-(Dokumentation)
+
+**CLOSED**
+
+DronesWebsite, die über Github gehostet wurde
+
+LEGACY
 
 Main-Github: https://github.com/DronesTowerDefence/DTD
 
-Host: kelp
-
-Subdomain:
-Wiki: Chico (Daniel)
