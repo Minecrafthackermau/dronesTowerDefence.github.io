@@ -1,78 +1,131 @@
+
 <!doctype html>
 <html id="html" lang="de" class=dn>
 
+<script>
+
+if(document.cookie==""){
+  (function(){
+    let text = "Cookies erlauben?";
+    if (confirm(text) == true) {
+      document.cookie = "cookies=1";
+    } else {
+      history.back()
+    }
+    //document.getElementById("demo").innerHTML = text;
+  }())
+  
+  };
+  </script>
+
 <head>
-  <link rel="icon" href="img/icon.png">
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="stylesheet.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/ae32d225a7.js" crossorigin="anonymous"></script>
-  <title>Startseite</title>
+  <link rel="icon"href="img/icon.ico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ae32d225a7.js" crossorigin="anonymous"></script>
+    <title>Startseite</title>
 </head>
 
-<body>
+<body> 
 
-  <h1>
-    <b>Drones TD Wiki</b>
-  </h1>
-
-
-  <p>Das Wiki für den Drohnenspaß im Singe- und Multiplayer</p>
-
-  <br>
-  <hr>
-  <!--Dropdown Menu-->
+<h1>
+<b>Drones TD</b>
+</h1>
 
 
-  <div class="navbar">
-    <a class="active" href=""><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-    <div class="dropdown">
-      <button class="dropbtn" onclick="window.location.href='HTML/Türme.html';">Türme
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="HTML/Towers/Feuerturm.html">Feuerturm</a>
-        <a href="HTML/Towers/Nagelfabrik.html">Nagelfabrik</a>
-        <a href="HTML/Towers/EMP_Sender.html">EMP-Sender</a>
-        <a href="HTML/Towers/Flugzeug.html"> Flugzeug</a>
-        <a href="HTML/Towers/Goldmine.html">Goldmine</a>
-        <a href="JTML/Towers/Sturmturm.html"> Sturmturm</a>
-        <a href="JTML/Towers/Minigun.html"> Minigun</a>
-      </div>
+<p>Dronenspaß für den Single- und Multiplayer!</p>
+
+<br> 
+<hr>
+
+<div class="navbar">
+  <a class="active" href=""><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+  <!--Dropdown Menu<div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Onlineshop/Angebote (WIP)
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href=""><i class="fa fa-compass" aria-hidden="true"></i> Übersicht</a>
+      <a href=""><i class="fa fa-handshake-o" aria-hidden="true"></i>  Kollaboration</a>
+      <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i>  Zeitlich Begrenzt</a>
     </div>
-    <a href="HTML/Anleitung.html" style="background-color: #222222;">Anleitung</a>
-        <a href="HTML/Drohnen.html" style="background-color: #222222;"> Drohnen</a>
-        <a href="HTML/Shortcuts.html" style="background-color: #222222;">Shortcuts</a>
-        <a href="HTML/Achievements.html" style="background-color: #222222;">Achievements</a>
   </div>
 
-  <br>
-  <br>
-  <h2>Beschreibung des Spiels</h2>
+-->
+<a href ="Wiki/index.html" style="background-color: #222222;"><i class="fa fa-globe" aria-hidden="true" style="background-color: #222222;"></i> &nbsp; Wiki</a>
+<a href ="down/shop.html" style="background-color: #222222;"><i class="fa fa-shopping-cart" aria-hidden="true" style="background-color: #222222;"></i> &nbsp; Shop</a>
+<a href ="down/leaderboard.php" style="background-color: #222222;"><i class="fa fa-trophy" aria-hidden="true" style="background-color: #222222;"></i> &nbsp; Rangliste</a>
+  <a href ="down/sign-in.php" style="background-color: #222222;"><i class="fa fa-user" aria-hidden="true" style="background-color: #222222;"></i> &nbsp; Profil</a>
+  <a href ="down/chalanges.php" style="background-color: #222222;"><i class="fa fa-medal" aria-hidden="true" style="background-color: #222222;"></i> &nbsp; Aufgaben</a>
+ <a href ="down/impressum.html" style="background-color: #222222;"><i class="fa fa-users" aria-hidden="true" "></i> &nbsp; Impressum</a>
+
+    
+  </div>
+
+</div>
+
+</div>
 
 
-  <p>
-    Oh nein - Euer Gebiet wird von Drohnen angegriffen! <br>
+<br>
 
-    Könnt ihr es schaffen, mit verschiedenen Verteidigungstaktiken den Angriff abzuwehren? <br><br>
-    Keine Panik, solltet ihr es nicht alleine schaffen, könnt ihr es auch mit euren Freunden zusammen probieren. <br>
-    <br>
-    Außerdem gibt es jeden Tag eine neue herausfordernde Aufgabe und jede Menge Belohnungen für Tätigkeiten im Spiel.
 
-    Alles was ihr über das Spiel wissen müsst, findet Ihr in diesem Wiki.
-  </p>
 
-  <p>Die Website, wo Ihr Euch das Spiel Downloaden und Euer Account verwalten könnt findet Ihr
-    <a href="https://dronestd.de/">hier</a>
-  </p>
 
-  <footer style="background-color:#131A22;">
-    <br>
+<h2>
 
-    <a href="https://dronestd.de/down/impressum.html">© 2022-2023 DronesTD&nbsp;|&nbsp;Impressum</a>
-    <br>
-    <br>
-  </footer>
+<b> Willkommen bei DTD! <br> 
+
+</b>
+
+</h2>
+<br>
+<h3 id="link-snippet-headline"> Unser Game (1.0 Release) könnt ihr über <code>&lt;Github&gt;</code> runterladen! </h3>
+<p><a href="https://github.com/DronesTowerDefence/DTD">-><i>Github</i></a></p>
+
+(DTD 2.2 Release -> Assets -> 
+DronesTowerDefence.v2.2.zip  )
+</div>
+<br>
+
+<h3>Systemvorraussetzungen:</h3>
+
+<details>
+<br>
+<ul>
+<li> Windows 10</li>
+<li> Mindestens 2GB RAM</li>
+<li> GTX 960</li>
+<li> Intel i3</li>
+<li> Neuste Version von <b><a href="https://docs.microsoft.com/de-de/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft Visual C++ Redistributable</a></b> installiert</li>
+</ul>
+</details>
+</ul>
+
+<br>
+<hr>
+<h3 id="link-snippet-headline"> Infos über unser Spiel könnt ihr im<code>&lt;Wiki&gt;</code> nachlesen! </h3>
+<p><a href="https://www.wiki.dronestd.de">-><i>Wiki</i></a></p>
+<br> 
+
+
+<p><b>Habt Spaß!</b></p>
+
+
+
+
+</div>
+
+<br>
+
+
+<footer style="background-color:#131A22;">
+  <br> 
+	
+   <a href="down/impressum.html">© 2022-2023 DronesTD&nbsp;|&nbsp;Impressum</a>
+<br> <br>
+</footer>
 </body>
 
 
